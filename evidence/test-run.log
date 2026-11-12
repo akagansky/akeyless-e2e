@@ -1,0 +1,8 @@
+
+Running 3 tests using 3 workers
+
+  ✓  1 [chromium] › tests/createStaticSecretUnauthorized.spec.ts:5:1 › shows a not authorized error for a folder outside the role's path (10.2s)
+  ✓  2 [chromium] › tests/createStaticSecret.spec.ts:6:1 › creates a static secret that is listed and returns the stored value (15.7s)
+  ✓  3 [chromium] › tests/deleteStaticSecret.spec.ts:6:1 › deletes a static secret that disappears from the list and the CLI (18.7s)
+
+  3 passed (19.2s)

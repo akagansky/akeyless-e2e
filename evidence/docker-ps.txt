@@ -1,0 +1,4 @@
+2026-11-11 09:54
+NAMES          IMAGE                           STATUS        PORTS
+lab-postgres   postgres:16                     Up 18 hours   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+akeyless-gw    akeyless/base:latest-akeyless   Up 18 hours   0.0.0.0:5696->5696/tcp, [::]:5696->5696/tcp, 0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp

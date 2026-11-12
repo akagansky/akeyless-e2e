@@ -1,0 +1,43 @@
+{
+  "name": "akeyless-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "E2E tests for static secrets in the Akeyless console",
+  "files": [
+    "config",
+    "fixtures",
+    "pages",
+    "scripts",
+    "tests",
+    "types",
+    "utils",
+    "playwright.config.ts",
+    "tsconfig.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.0.0",
+    "akeyless": "^5.0.40",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.12.2",
+    "prettier": "^3.9.10",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.72.1"
+  }
+}
